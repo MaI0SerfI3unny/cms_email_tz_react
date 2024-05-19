@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: green;
+    color: white;
+    h1{
+        text-transform: uppercase;
+    }
+}
+
+main{
+    min-height: 80vh;
+    margin-top: 50px;
+}
+
+.avatar{
+    width: 200px;
+    margin-top: 10px;
+}
+
+.list_email_container{
+    margin-top: 40px;
+}
+
+.form_container{
+    .form_req_title{
+        font-size: 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .form_req{
+        max-width: 400px;
+        width: 100%;
+        max-height: max-content;
+        button{
+            width: 100%;
+        }
+    }
+
+    .form_req_link_container{
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+.editor_container{
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    min-height: 200px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
